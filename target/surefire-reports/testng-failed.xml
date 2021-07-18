@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="ChromeTest(failed)" verbose="0">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.org.tests.OptionsTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="reportSetup"/>
+          <include name="reportTearDown"/>
+          <include name="validateCheckBox"/>
+          <include name="validateDropDown"/>
+        </methods>
+      </class> <!-- com.org.tests.OptionsTest -->
+      <class name="com.org.tests.AlertTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="reportSetup"/>
+          <include name="reportTearDown"/>
+          <include name="validateClickAlert"/>
+          <include name="validateOptionAlert"/>
+        </methods>
+      </class> <!-- com.org.tests.AlertTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="2" parallel="tests" name="FireFoxTest(failed)" verbose="0">
+    <parameter name="Browser" value="FireFox"/>
+    <classes>
+      <class name="com.org.tests.OptionsTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="reportSetup"/>
+          <include name="validateRadioButton"/>
+          <include name="reportTearDown"/>
+          <include name="validateCheckBox"/>
+        </methods>
+      </class> <!-- com.org.tests.OptionsTest -->
+      <class name="com.org.tests.AlertTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="reportSetup"/>
+          <include name="reportTearDown"/>
+          <include name="validateDoubleClickAlert"/>
+        </methods>
+      </class> <!-- com.org.tests.AlertTest -->
+    </classes>
+  </test> <!-- FireFoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

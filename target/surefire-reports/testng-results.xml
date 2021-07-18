@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="24" total="40" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71565" started-at="2021-07-10T18:53:14Z" finished-at="2021-07-10T18:54:25Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="38672" started-at="2021-07-10T18:53:14Z" finished-at="2021-07-10T18:53:52Z">
+      <class name="com.org.tests.OptionsTest">
+        <test-method status="PASS" signature="validateRadioButton()[pri:0, instance:com.org.tests.OptionsTest@4d339552]" name="validateRadioButton" duration-ms="329" started-at="2021-07-10T18:53:46Z" finished-at="2021-07-10T18:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRadioButton -->
+        <test-method status="PASS" signature="validateCheckBox()[pri:1, instance:com.org.tests.OptionsTest@4d339552]" name="validateCheckBox" duration-ms="231" started-at="2021-07-10T18:53:47Z" finished-at="2021-07-10T18:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckBox -->
+        <test-method status="PASS" signature="validateDropDown()[pri:2, instance:com.org.tests.OptionsTest@4d339552]" name="validateDropDown" duration-ms="1020" started-at="2021-07-10T18:53:48Z" finished-at="2021-07-10T18:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDropDown -->
+      </class> <!-- com.org.tests.OptionsTest -->
+      <class name="com.org.tests.TextBoxTest">
+        <test-method status="PASS" signature="validateTextBox()[pri:0, instance:com.org.tests.TextBoxTest@3f200884]" name="validateTextBox" duration-ms="400" started-at="2021-07-10T18:53:46Z" finished-at="2021-07-10T18:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTextBox -->
+      </class> <!-- com.org.tests.TextBoxTest -->
+      <class name="com.org.tests.LinkClickTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.org.tests.LinkClickTest@69b794e2]" name="openBrowser" is-config="true" duration-ms="25538" started-at="2021-07-10T18:53:14Z" finished-at="2021-07-10T18:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validateLinkClick()[pri:0, instance:com.org.tests.LinkClickTest@69b794e2]" name="validateLinkClick" duration-ms="6685" started-at="2021-07-10T18:53:39Z" finished-at="2021-07-10T18:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinkClick -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.tests.LinkClickTest@69b794e2]" name="closeBrowser" is-config="true" duration-ms="3297" started-at="2021-07-10T18:53:49Z" finished-at="2021-07-10T18:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.org.tests.LinkClickTest -->
+      <class name="com.org.tests.AlertTest">
+        <test-method status="PASS" signature="validateDoubleClickAlert()[pri:0, instance:com.org.tests.AlertTest@f0f2775]" name="validateDoubleClickAlert" duration-ms="692" started-at="2021-07-10T18:53:47Z" finished-at="2021-07-10T18:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDoubleClickAlert -->
+        <test-method status="PASS" signature="validateClickAlert()[pri:1, instance:com.org.tests.AlertTest@f0f2775]" name="validateClickAlert" duration-ms="91" started-at="2021-07-10T18:53:48Z" finished-at="2021-07-10T18:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateClickAlert -->
+        <test-method status="PASS" signature="validateOptionAlert()[pri:2, instance:com.org.tests.AlertTest@f0f2775]" name="validateOptionAlert" duration-ms="219" started-at="2021-07-10T18:53:49Z" finished-at="2021-07-10T18:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOptionAlert -->
+      </class> <!-- com.org.tests.AlertTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FireFoxTest" duration-ms="32704" started-at="2021-07-10T18:53:52Z" finished-at="2021-07-10T18:54:25Z">
+      <class name="com.org.tests.OptionsTest">
+        <test-method status="PASS" signature="validateRadioButton()[pri:0, instance:com.org.tests.OptionsTest@770c2e6b]" name="validateRadioButton" duration-ms="525" started-at="2021-07-10T18:54:18Z" finished-at="2021-07-10T18:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRadioButton -->
+        <test-method status="PASS" signature="validateCheckBox()[pri:1, instance:com.org.tests.OptionsTest@770c2e6b]" name="validateCheckBox" duration-ms="510" started-at="2021-07-10T18:54:19Z" finished-at="2021-07-10T18:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckBox -->
+        <test-method status="PASS" signature="validateDropDown()[pri:2, instance:com.org.tests.OptionsTest@770c2e6b]" name="validateDropDown" duration-ms="1297" started-at="2021-07-10T18:54:19Z" finished-at="2021-07-10T18:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDropDown -->
+      </class> <!-- com.org.tests.OptionsTest -->
+      <class name="com.org.tests.TextBoxTest">
+        <test-method status="PASS" signature="validateTextBox()[pri:0, instance:com.org.tests.TextBoxTest@c540f5a]" name="validateTextBox" duration-ms="170" started-at="2021-07-10T18:54:18Z" finished-at="2021-07-10T18:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTextBox -->
+      </class> <!-- com.org.tests.TextBoxTest -->
+      <class name="com.org.tests.LinkClickTest">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.org.tests.LinkClickTest@7bb58ca3]" name="reportSetup" is-config="true" duration-ms="214" started-at="2021-07-10T18:53:13Z" finished-at="2021-07-10T18:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.org.tests.LinkClickTest@7bb58ca3]" name="openBrowser" is-config="true" duration-ms="21933" started-at="2021-07-10T18:53:52Z" finished-at="2021-07-10T18:54:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validateLinkClick()[pri:0, instance:com.org.tests.LinkClickTest@7bb58ca3]" name="validateLinkClick" duration-ms="3167" started-at="2021-07-10T18:54:14Z" finished-at="2021-07-10T18:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinkClick -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.org.tests.LinkClickTest@7bb58ca3]" name="closeBrowser" is-config="true" duration-ms="4595" started-at="2021-07-10T18:54:21Z" finished-at="2021-07-10T18:54:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="reportTearDown()[pri:0, instance:com.org.tests.LinkClickTest@7bb58ca3]" name="reportTearDown" is-config="true" duration-ms="628" started-at="2021-07-10T18:54:25Z" finished-at="2021-07-10T18:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+      </class> <!-- com.org.tests.LinkClickTest -->
+      <class name="com.org.tests.AlertTest">
+        <test-method status="PASS" signature="validateDoubleClickAlert()[pri:0, instance:com.org.tests.AlertTest@1a052a00]" name="validateDoubleClickAlert" duration-ms="279" started-at="2021-07-10T18:54:18Z" finished-at="2021-07-10T18:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDoubleClickAlert -->
+        <test-method status="PASS" signature="validateClickAlert()[pri:1, instance:com.org.tests.AlertTest@1a052a00]" name="validateClickAlert" duration-ms="88" started-at="2021-07-10T18:54:19Z" finished-at="2021-07-10T18:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateClickAlert -->
+        <test-method status="PASS" signature="validateOptionAlert()[pri:2, instance:com.org.tests.AlertTest@1a052a00]" name="validateOptionAlert" duration-ms="133" started-at="2021-07-10T18:54:20Z" finished-at="2021-07-10T18:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOptionAlert -->
+      </class> <!-- com.org.tests.AlertTest -->
+    </test> <!-- FireFoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
